@@ -1,0 +1,23 @@
+.inputSearch {
+  display: block;
+  height: 50px;
+  width: 250px;
+  padding-left: 20px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+}
+
+.inputSearch::placeholder {
+  color: #8D99AE;
+}
+
+.inputSearch:focus {
+  outline-color: #8D99AE;
+}
+
+@media (min-width: 1025px){ 
+  .inputSearch {
+    width: 500px;
+  }
+}

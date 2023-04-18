@@ -1,0 +1,33 @@
+.itemList {
+  place-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 10px;
+  color: #8D99AE;
+  background-color: #FFFFFF;
+}
+
+.itemCheck {
+  color: green;
+}
+
+.itemText {
+  width: 150px;
+  overflow: hidden;
+}
+
+.itemDelete {
+  color: #EF233C;
+}
+
+.itemText--completed {
+  text-decoration: line-through;
+}
+
+@media (min-width: 1025px){ 
+  .itemList {
+    width: 600px;
+  }
+}

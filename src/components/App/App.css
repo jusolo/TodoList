@@ -1,0 +1,14 @@
+.containerSearchAndButton {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1025px){ 
+  .containerSearchAndButton {
+    width: 600px;
+  }
+}
